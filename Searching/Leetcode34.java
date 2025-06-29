@@ -1,4 +1,4 @@
-class Solution {
+class Leetcode34 {
     public int[] searchRange(int[] nums, int target) {
         int low=0;
         int high=nums.length-1;
