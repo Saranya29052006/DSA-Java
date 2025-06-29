@@ -1,6 +1,6 @@
 import java.util.* ;
 import java.io.*; 
-public class Solution {
+public class CeilTheFloor{
     public static int[] getFloorAndCeil(int[] a, int n, int x) {
       int low=0;
       int high=n-1;
