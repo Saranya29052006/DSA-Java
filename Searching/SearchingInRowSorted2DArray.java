@@ -3,7 +3,7 @@ public class SearchingInRowSorted2DArray {
     public static void main(String[] args) {
         int[][] arr={{1,4,7,10},{23,41,56,60},{6,16,45,100}};
         int target=45;
-        int[] result=search(arr,target);//Time Complexity:O(row+log col)
+        int[] result=search(arr,target);//Time Complexity:O(row*log col)
         System.out.println(Arrays.toString(result));
     }
     public static int[] search(int[][] arr,int target){
