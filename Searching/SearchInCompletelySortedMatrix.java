@@ -18,7 +18,8 @@ public class SearchInCompletelySortedMatrix {
                 if (j != -1) {
                     return new int[]{rowMid, j};
                 }
-            }else if(arr[rowMid][col-1]<target){
+            }
+            if(arr[rowMid][col-1]<target){
                     rowLow=rowMid+1;
             }else{
                     rowHigh=rowMid-1;
